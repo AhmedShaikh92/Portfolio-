@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.nav-bar a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.circle-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 1250px;
+    height: 500px;
+    padding-top: 20px;
+}
+.circle{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 490px;
+    height: 480px;
+}
+.circle-element-one{
+    position: absolute;
+    padding-left: 195px;
+    top: -10px;
+}
+.circle-element-one b{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: large;
+}
