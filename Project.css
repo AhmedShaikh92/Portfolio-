@@ -1,0 +1,21 @@
+.Project{
+    position: relative;
+    min-height: 100vh;
+}
+
+.Project-List{
+    position: absolute;
+    overflow: hidden;
+}
+
+.triangle-design-Project{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-top: 280px solid rgb(31, 158, 255);
+    border-right: 316px solid rgb(0, 145, 255);
+    border-bottom: 272px solid rgb(27,155,255);
+    border-left: 316px solid transparent;
+}

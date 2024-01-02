@@ -6,23 +6,58 @@
     display: flex;
     justify-content: flex-end;
     padding-top: 10px;
+    padding-right: 60px;
+    position: relative;
+    z-index: 2;
 }
 .nav-bar a{
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 25px;
+    color: white;
+    font-size: large;
+    position: relative;
 }
-
+/* .nav-bar a::after{
+    content: '';
+    position: absolute;
+    width: 64%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: white;
+    bottom: -2px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+.nav-bar a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+} */
+.Home{
+    position: relative;
+    overflow: hidden;
+}
+.name{
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    color: rgb(0, 145, 255);
+}
+.name h1 span {
+    color:rgb(0, 0, 0);
+}
 .circle-wrapper{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    width: 1250px;
+    width: 1230px;
     height: 500px;
     padding-top: 20px;
 }
 .circle{
     position: absolute;
-    border: 2px solid black;
+    border: 3px solid rgb(0, 145, 255);
     border-radius: 50%;
     width: 490px;
     height: 480px;
@@ -36,5 +71,65 @@
     padding: 6px;
     border-radius: 10px;
     background-color: white;
+    color:rgb(0, 145, 255);
     font-size: large;
+}
+.circle-element-two{
+    position: absolute;
+    padding-top: 216px;
+    left: -50px;
+}
+.circle-element-two b{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+    color:rgb(0, 145, 255);
+    font-size: large;
+}
+
+.circle-element-three{
+    position: absolute;
+    padding-top: 216px;
+    right: -35px;
+}
+.circle-element-three b{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+    color:rgb(0, 145, 255);
+    font-size: large;
+}
+
+.circle-element-four{
+    position: absolute;
+    bottom: -10px;
+    left: 200px;
+}
+.circle-element-four b{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+    color:rgb(0, 145, 255);
+    font-size: large;
+}
+.Torch{
+    position: absolute;
+    bottom: 40.5%;
+    right: -18%;
+    z-index: 3;
+}
+.Torch img{
+    width:32%;
+    height:42%
+}
+.triangle-design-Home{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 275.5px solid rgb(31, 158, 255);
+    border-right: 316px solid rgb(0, 145, 255);
+    border-bottom: 275.4px solid rgb(27,155,255);
+    border-left: 316px solid transparent;
 }

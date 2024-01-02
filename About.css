@@ -1,0 +1,20 @@
+.About{
+    position: relative;
+    min-height: 100vh;
+}
+
+.About-Info{
+    position: absolute;
+}
+
+.triangle-design-About{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    border-top: 276px solid rgb(31, 158, 255);
+    border-right: 316px solid transparent;
+    border-bottom: 275.5px solid rgb(27,155,255);
+    border-left: 316px solid rgb(0, 145, 255);
+}
